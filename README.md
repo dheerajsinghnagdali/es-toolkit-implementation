@@ -12,8 +12,7 @@ This is an implementation of [es-toolkit](https://es-toolkit.dev).
 
 ## Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your
-local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -35,11 +34,9 @@ Linux
 curl -fsSL https://deno.land/install.sh | sh
 ```
 
-### Installing
+### Setup
 
 A step by step series of examples that tell you how to get it running locally.
-
-Say what the step will be
 
 ```
 deno task dev
