@@ -9,5 +9,5 @@
  * `secondArr`.
  */
 export function intersection<T>(firstArr: T[], secondArr: T[]): T[] {
-  return firstArr.filter((item) => secondArr.includes(item))
+  return Array.from(new Set(firstArr).intersection(new Set(secondArr)))
 }
