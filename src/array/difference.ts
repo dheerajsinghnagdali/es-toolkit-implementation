@@ -7,5 +7,5 @@
  * `firstArr` but not in the `secondArr`.
  */
 export function difference<T>(firstArr: T[], secondArr: T[]): T[] {
-  return firstArr.filter((item) => !secondArr.includes(item));
+  return Array.from(new Set(firstArr).difference(new Set(secondArr)))
 }
